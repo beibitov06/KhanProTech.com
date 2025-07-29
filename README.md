@@ -1,2 +1,0 @@
-# KhanProTech.com
-KhanProTech Website
