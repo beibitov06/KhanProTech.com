@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KhanProTech - Высокопроизводительные игровые компьютеры</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>KhanProTech</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#catalog">Каталог</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>KhanProTech</h1>
+                <h2>Высокопроизводительные игровые компьютеры</h2>
+                <div class="hero-features">
+                    <p><i class="fas fa-laptop"></i> Игровые, офисные и компьютеры на заказ</p>
+                    <p><i class="fas fa-truck"></i> Доставка по всей Атырау</p>
+                    <p><i class="fas fa-phone"></i> Связь через WhatsApp или Telegram</p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#catalog" class="btn btn-primary">Просмотреть каталог</a>
+                    <a href="#contact" class="btn btn-secondary">Связаться с нами</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Catalog Section -->
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <h2 class="section-title">Наши продукты</h2>
+            <div class="catalog-categories">
+                <button class="category-btn active" data-category="all">Все продукты</button>
+                <button class="category-btn" data-category="ready-made">Готовые ПК</button>
+                <button class="category-btn" data-category="gaming">Игровые компьютеры</button>
+                <button class="category-btn" data-category="components">Комплектующие</button>
+                <button class="category-btn" data-category="laptops">Ноутбуки</button>
+            </div>
+            <div class="products-grid">
+                <!-- Product Card 1 - Premium Gaming PC -->
+                
+                <!-- Product Card 2 - Standard Gaming PC -->
+                <div class="product-card" data-category="ready-made gaming">
+                    <div class="product-image">
+                        <img src="images/Gaming PC.jpg" alt="Gaming PC">
+                    </div>
+                    <div class="product-details">
+                        <h3>Gaming PC</h3>
+                        <div class="product-specs">
+                            <p>Intel Core i7-12700F</p>
+                            <p>NVIDIA RTX 4060</p>
+                            <p>32GB DDR4 RAM</p>
+                            <p>1TB NVMe SSD</p>
+                        </div>
+                        <div class="product-price">545 340 ₸</div>
+                        <button class="btn btn-primary">Купить</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="product-card" data-category="ready-made">
+                    <div class="product-image">
+                        <img src="images/photo_5204069486263661357_y.jpg" alt="Office PC">
+                    </div>
+                    <div class="product-details">
+                        <h3>Офисный ПК Pro</h3>
+                        <div class="product-specs">
+                            <p>Intel Core i5-12400</p>
+                            <p>Intel UHD Graphics</p>
+                            <p>16GB DDR4 RAM</p>
+                            <p>512GB NVMe SSD</p>
+                        </div>
+                        <div class="product-price">192 990 ₸</div>
+                        <button class="btn btn-primary">Купить</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="product-card" data-category="laptops">
+                    <div class="product-image">
+                        <img src="images/photo_5201774869921004458_y.jpg" alt="Laptop">
+                    </div>
+                    <div class="product-details">
+                        <h3>Ультрабук Pro</h3>
+                        <div class="product-specs">
+                            <p>AMD Ryzen 5 7535HS</p>
+                            <p>NVIDIA RTX 4050</p>
+                            <p>16GB DDR4 RAM</p>
+                            <p>1TB NVMe SSD</p>
+                        </div>
+                        <div class="product-price">505 130 ₸</div>
+                        <button class="btn btn-primary">Купить</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="product-card" data-category="components">
+                    <div class="product-image">
+                        <img src="images/photo_5201774869921004467_y.jpg" alt="Graphics Card">
+                    </div>
+                    <div class="product-details">
+                        <h3>NVIDIA RTX 5060</h3>
+                        <div class="product-specs">
+                            <p>8GB GDDR7</p>
+                            <p>2.53 GHz Boost Clock</p>
+                            <p>PCIe 5.0</p>
+                            <p>Ray Tracing Cores</p>
+                        </div>
+                        <div class="product-price">226 290 ₸</div>
+                        <button class="btn btn-primary">Купить</button>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="catalog.html" class="btn btn-secondary">Просмотреть полный каталог</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О компании KhanProTech</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/chrome_Bw31DEkNzu.png" alt="Команда KhanProTech">
+                </div>
+                <div class="about-text">
+                    <h3>Ваш надежный технологический партнер</h3>
+                    <p>KhanProTech специализируется на предоставлении высокопроизводительных игровых компьютеров и сборке на заказ. Благодаря многолетнему опыту в игровой индустрии, мы создали репутацию компании, предлагающей передовые технологии и исключительную производительность.</p>
+                    
+                    <h3>Почему выбирают нас?</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Протестированные компоненты и системы</li>
+                        <li><i class="fas fa-check"></i> Конкурентные цены на все продукты</li>
+                        <li><i class="fas fa-check"></i> Экспертная техническая поддержка</li>
+                        <li><i class="fas fa-check"></i> Быстрая доставка по всей Атырау</li>
+                        <li><i class="fas fa-check"></i> Гарантия 1 год на все продукты</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+            <div class="reviews-slider">
+                <!-- Review 1 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="images/free-icon-blank-avatar-18601.png" alt="Customer">
+                        </div>
+                        <div class="review-author">
+                            <h4>Mikhail S.</h4>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Я приобрел игровой ПК от KhanProTech в прошлом месяце и чрезвычайно доволен производительностью. Процесс заказа был простым, а компьютер прибыл хорошо упакованным и вовремя. Очень рекомендую!"</p>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="images/free-icon-blank-avatar-18601.png" alt="Customer">
+                        </div>
+                        <div class="review-author">
+                            <h4>Elena K.</h4>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Отличное обслуживание клиентов! У меня были вопросы о том, какой ПК лучше всего подойдет для моих нужд, и команда очень помогла мне сделать правильный выбор. Компьютер отлично работает для моей дизайнерской работы."</p>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="images/free-icon-blank-avatar-18601.png" alt="Customer">
+                        </div>
+                        <div class="review-author">
+                            <h4>Dmitry P.</h4>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        <p>"Я купил несколько компонентов от KhanProTech для своей кастомной сборки, и качество всегда было отличным. Быстрая доставка и хорошие цены. Теперь это мой постоянный магазин для всех компьютерных комплектующих."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Связаться с нами</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p>+7(775)303-01-47</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>khanprotech@mail.ru</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>+7(775)303-01-47</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-telegram"></i>
+                        <div>
+                            <h3>Telegram</h3>
+                            <p>@beibitov_001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h3>Instagram</h3>
+                            <p>@khanprotech</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Отправьте нам сообщение</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Ваш Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Ваш телефон</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Ваше сообщение</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>KhanProTech</h2>
+                    <p>High Performance Gaming Computers</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Быстрые ссылки</h3>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#catalog">Каталог</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Подписывайтесь на нас</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/khanprotech/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/beibitov_001" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://wa.me/77753030147" target="_blank"><i class="fab fa-whatsapp"></i></a> 
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025   KhanProTech. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
