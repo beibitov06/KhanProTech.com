@@ -1,0 +1,11 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f4f4f4" />
+  <rect x="50" y="80" width="300" height="140" rx="5" fill="#333333" />
+  <rect x="70" y="100" width="260" height="80" rx="3" fill="#222222" />
+  <circle cx="100" cy="140" r="15" fill="#0066cc" />
+  <circle cx="140" cy="140" r="15" fill="#0066cc" />
+  <rect x="170" y="125" width="120" height="30" rx="3" fill="#444444" />
+  <text x="230" y="145" font-family="Arial" font-size="12" fill="white" text-anchor="middle">RTX 3070</text>
+  <rect x="80" y="190" width="240" height="10" rx="2" fill="#555555" />
+  <rect x="100" y="210" width="200" height="10" rx="2" fill="#0066cc" opacity="0.7" />
+</svg>

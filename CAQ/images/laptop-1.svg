@@ -1,0 +1,9 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f4f4f4" />
+  <rect x="100" y="50" width="200" height="120" rx="5" fill="#333333" />
+  <rect x="110" y="60" width="180" height="100" rx="2" fill="#0066cc" opacity="0.2" />
+  <rect x="80" y="170" width="240" height="10" rx="2" fill="#333333" />
+  <rect x="70" y="180" width="260" height="20" rx="3" fill="#444444" />
+  <text x="200" y="120" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">ProBook Ultra</text>
+  <circle cx="200" cy="195" r="5" fill="#0066cc" />
+</svg>
